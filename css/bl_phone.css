@@ -1,0 +1,35 @@
+.side,.main,.con{
+    padding:0;
+    position:relative;
+    float: none;
+    width:100%;
+}
+.side ul{text-align: center;}
+//菜单按钮动画
+@keyframes onmenus{
+    100%{box-shadow:0 0 6px 6px #eee;}
+}
+@-moz-keyframes onmenus{
+    100%{box-shadow:0 0 6px 6px #eee;}
+}
+@-o-keyframes onmenus{
+    100%{box-shadow:0 0 6px 6px #eee;}
+}
+@-webkit-keyframes onmenus{
+    100%{box-shadow:0 0 6px 6px #eee;}
+}
+#bl_nav{
+    display: block;
+    width:40px;
+    height:40px;
+    background-image: url("../images/blog_nav.jpg");
+    position:absolute;
+    top: 15px;
+    right: 15px;
+    box-shadow:0 0 2px 1px #eee;
+    animation:onmenus 2s infinite alternate ;
+    -o-animation:onmenus 2s infinite alternate ;
+    -moz-animation:onmenus 2s infinite alternate ;
+    -webkit-animation:onmenus 2s infinite alternate;
+}
+#bl_menu{display: none;}
