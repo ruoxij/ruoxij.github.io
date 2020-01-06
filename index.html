@@ -1,2 +1,40 @@
-<p>hi</p>
-<p>你好啊</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/index.js"></script>
+    <title>首页</title>
+</head>
+<body>
+	<div id="con">
+		<div class="time">
+			<ul>
+				<li class="tit">Hour</li>
+				<li class="tim" id="Htim"></li>
+                <li class="nextt" id="Hnextt"></li>
+			</ul>
+			<ul>
+				<li class="tit">Minute</li>
+				<li class="tim" id="Mtim"></li>
+                <li class="nextt" id="Mnextt"></li>
+			</ul>
+			<ul>
+				<li class="tit">Second</li>
+				<li class="tim" id="Stim"></li>
+                <li class="nextt" id="Snextt"></li>
+			</ul>
+		</div>
+		<img id="flag" src="images/flag.png" alt="">
+        <div class="up" onclick="up()"></div>
+        <div class="down" onclick="down()"></div>
+        <ul class="ments">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="blog.html">我的博客</a></li>
+            <li><a href="www.html">个人网站</a></li>
+            <li><a href="javascript:t=1;">关闭雪花特效</a></li>
+        </ul>
+        <div class="yes" onclick="yes()"></div>
+	</div>
+</body>
+</html>
